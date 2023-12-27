@@ -1,0 +1,121 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("img_hack.png");
+  background-repeat: no-repeat, repeat;
+  background-color: #cccccc;
+  background-size: cover;
+  color: white;
+  background-attachment: fixed;
+}
+
+header {
+  background-size: cover;
+  color: #008080;
+  text-align: center;
+  box-shadow: 3px 3px 7px white;
+}
+
+main {
+  margin: 150px auto;
+  margin-bottom:50px;
+  max-width: 1000px;
+  
+  background: rgb(50,255,249);
+  background: radial-gradient(circle, rgba(50,255,249,0.7791491596638656) 0%, rgba(0,0,0,1) 100%);
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0);
+  color:white;
+  box-shadow: 3px 3px 7px #c9cdcf;;
+}
+section {
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 7px #c9cdcf;
+}
+
+h2 {
+  margin:40px;
+  text-decoration : underline;
+  color: black;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 7px black;
+  text-align: center;
+}
+
+h3 {
+  margin:35px;
+  font-size: 15px;
+  color: #FFDEAD;
+  margin-bottom: 20px;
+}
+
+p{
+  text-align: center;
+  margin:20px;
+  font-size: 17px;
+}
+
+.button {
+        background-color: rgba(200,236,234,0.6);
+        border: none;
+        color: black;
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        cursor: pointer;
+		border-radius : 30px ;
+		margin-left: 410px;
+}
+
+li {
+  margin:10px;
+  margin-bottom: 10px;
+}
+
+img {
+  border: none;
+  padding: 5px;
+  width: 100px;
+  position:absolute;
+  top:50px;
+  left:600px;
+  background : transparent; 
+  background-color : transparent;
+  }
+
+img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+a:link{
+	color:white;
+	text-decoration:none;
+}
+
+#btnScrollToTop{
+ position:fixed;
+ right:10px;
+ bottom:10px;
+ width:60px;
+ height:60px;
+ border-radius:50%;
+ background: #303030;
+ box-shadow: 0 0 10px #baabab rgba(0, 0, 0, 0,25);
+ outline: none;
+ cursor: pointer;
+ }
+
+  #btnScrollToTop:active{
+   background: #9f6060;
+  }

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+ <html lang="en">
+ 
+  <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <title> Hachathon Registration </title>
+   <style>
+   body { 
+    background-image: url("img_hack.png");
+    background-repeat: no-repeat, repeat;
+    background-color: #cccccc;
+    background-size: cover;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: sans-serif; 
+    line-height: 1.5; 
+    min-height: 100vh; 
+    flex-direction: column; 
+    margin: 0; 
+} 
+  
+.main { 
+    background-color: #fff; 
+    border-radius: 15px; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+    padding: 10px 20px; 
+    transition: transform 0.2s; 
+    width: 500px; 
+    text-align: center; 
+} 
+
+h1 { 
+    color: #008080; 
+} 
+  
+label { 
+    display: block; 
+    width: 100%; 
+    margin-top: 10px; 
+    margin-bottom: 5px; 
+    text-align: left; 
+    color: #555; 
+    font-weight: bold; 
+} 
+  
+#pass { 
+    color: red; 
+    font-size: 12px; 
+} 
+  
+input { 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+} 
+  
+select { 
+    display: block; 
+    width: 100%; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    box-sizing: border-box; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+} 
+  
+button { 
+    padding: 15px; 
+    border-radius: 10px; 
+    margin-top: 15px; 
+    margin-bottom: 15px; 
+    border: none; 
+    color: white; 
+    cursor: pointer; 
+    background-color: #008080; 
+    width: 100%; 
+    font-size: 16px; 
+} 
+  
+.wrap { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+}
+</style>
+  </head>
+
+  <div class="main"> 
+        <h1>Hackthon Registration Form</h1> 
+		<form action=""> 
+		    <label for="team">Team Name:</label> 
+            <input type="text" id="team" 
+                   name="team" 
+                   placeholder="Enter the Team name" required
+				   maxlength="10">
+				   
+            <label for="first">First Name:</label> 
+            <input type="text" id="first" 
+                   name="first" 
+                   placeholder="Enter the leader first name" required> 
+				   
+            <label for="last">Last Name:</label> 
+            <input type="text" id="last" 
+                   name="last" 
+                   placeholder="Enter the leader last name" required
+				   <span style="text-transform:uppercase"></span>
+  
+            <label for="email">Email:</label> 
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Enter the leader email" required> 
+				   
+			<label for="Discord id">Discord id:</label> 
+            <input type="text" id="Discord id" 
+                   name="Discord id" 
+                   placeholder="Enter the leader Discord id" required>
+  
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter the leader Mobile Number" required 
+                   maxlength="10"> 
+  
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option>  
+            </select> 
+  
+        </form> 
+		</div>
+		<hr>
+		<div class="main">
+		<form action=""> 
+            <label for="first">First Name:</label> 
+            <input type="text" id="first" 
+                   name="first" 
+                   placeholder="Enter the 2 first name" required> 
+				   
+            <label for="last">Last Name:</label> 
+            <input type="text" id="last" 
+                   name="last" 
+                   placeholder="Enter the 2 last name" required
+				   <span style="text-transform:uppercase"></span>
+  
+            <label for="email">Email:</label> 
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Enter the 2 email" required> 
+				   
+			<label for="Discord id">Discord id:</label> 
+            <input type="text" id="Discord id" 
+                   name="Discord id" 
+                   placeholder="Enter the 2 Discord id" required>
+  
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter the 2 Mobile Number" required 
+                   maxlength="10"> 
+  
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option>  
+            </select> 
+  
+        </form> 
+		</div>
+		<hr>
+		<div class="main">
+		<form action=""> 
+            <label for="first">First Name:</label> 
+            <input type="text" id="first" 
+                   name="first" 
+                   placeholder="Enter the 3 first name" required> 
+				   
+            <label for="last">Last Name:</label> 
+            <input type="text" id="last" 
+                   name="last" 
+                   placeholder="Enter the 3 last name" required
+				   <span style="text-transform:uppercase"></span>
+  
+            <label for="email">Email:</label> 
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Enter the 3 email" required> 
+				   
+			<label for="Discord id">Discord id:</label> 
+            <input type="text" id="Discord id" 
+                   name="Discord id" 
+                   placeholder="Enter the 3 Discord id" required>
+  
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter the 3 Mobile Number" required 
+                   maxlength="10"> 
+  
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option>  
+            </select> 
+  
+        </form> 
+		</div>
+		<hr>
+		<div class="main">
+		<form action=""> 
+            <label for="first">First Name:</label> 
+            <input type="text" id="first" 
+                   name="first" 
+                   placeholder="Enter the 4 first name" required> 
+				   
+            <label for="last">Last Name:</label> 
+            <input type="text" id="last" 
+                   name="last" 
+                   placeholder="Enter the 4 last name" required
+				   <span style="text-transform:uppercase"></span>
+  
+            <label for="email">Email:</label> 
+            <input type="email" id="email" 
+                   name="email" 
+                   placeholder="Enter the 4 email" required> 
+				   
+			<label for="Discord id">Discord id:</label> 
+            <input type="text" id="Discord id" 
+                   name="Discord id" 
+                   placeholder="Enter the 4 Discord id" required>
+  
+            <label for="mobile">Contact:</label> 
+            <input type="text" id="mobile" 
+                   name="mobile" 
+                   placeholder="Enter the 4 Mobile Number" required 
+                   maxlength="10"> 
+  
+            <label for="gender">Gender:</label> 
+            <select id="gender" name="gender" required> 
+                <option value="male">Male</option> 
+                <option value="female">Female</option>  
+            </select> 
+  
+            <div class="wrap"> 
+                <button type="submit" onclick="solve()"> 
+                  Submit 
+                  </button> 
+            </div> 
+        </form> 
+    </div> 
+   <br>
+ 
+   <footer>
+   <p>&copy; 2023 OMC Hackathon.</p>
+   </footer>
+   <button id="btnScrollToTop">
+     <i class="material-icons">arrow_upward</i>
+   </button>
+   <script>
+   btnScrollToTop = document.querySelector("#btnScrollToTop");
+    btnScrollToTop.addEventListener("click", function(){
+     window.scrollTo(0, 0);
+    });
+   </script>
+  
+  </body>	
+
+ </html>
